@@ -45,6 +45,11 @@ group :development do
   gem 'sqlite3'
   gem 'web-console', '~> 2.0'
 
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rbenv'
+
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
